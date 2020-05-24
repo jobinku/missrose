@@ -65,7 +65,7 @@ def filters(bot: Bot, update: Update):
     is_voice = False
     is_audio = False
     is_video = False
-    buttons = []
+    buttons = [⚪]
 
     # determine what the contents of the filter are - text, image, sticker, etc
     if len(extracted) >= 2:
